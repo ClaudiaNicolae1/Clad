@@ -1,0 +1,32 @@
+body {
+  background-color: powderblue;
+}
+h1{
+  color:#132c54;
+  font-family: courier,serif;
+  font-size: 200%;
+}
+p{
+  color:#193f70;
+  font-family: courier,serif;
+  font-size: 100%;
+}
+button:linked{
+  color: DodgerBlue;
+  border:2px solid DodgerBlue;
+}
+button:visited{
+  color:blue;
+  border:2px solid DodgerBlue;
+}
+button:hover{
+  color: blue;
+  border:2px solid DodgerBlue;
+}
+button:active{
+  border:2px solid DodgerBlue;
+}
+.primaryButton{
+  background-color: darkgreen;
+  border-color: aquamarine;
+}
