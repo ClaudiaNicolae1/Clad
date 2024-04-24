@@ -24,6 +24,11 @@ h2{
   padding: 20px;
   border: 2px solid black;
 }
+h3{
+  color:#324aa8;
+  font-family: courier,serif;
+  font-size: 200%;
+  }
 p{
   color:#193f70;
   font-family: courier,serif;
