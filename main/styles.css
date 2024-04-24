@@ -17,7 +17,7 @@ body {
   height: 100vh;
 }
 .navbar{
-  width: 50%;
+  width: 85%;
   margin: auto;
   padding: 35px 0;
   display: flex;
@@ -41,6 +41,7 @@ h2{
   font-size: 300%;
   margin: 20px;
   padding: 20px;
+  width: 50%;
   border: 2px solid black;
 }
 h3{
