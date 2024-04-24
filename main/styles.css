@@ -39,7 +39,19 @@ p{
     display: none;
   }
   
-button:linked{
+button{
+  width: 200px;
+  paddind: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border:2px solid DodgerBlue;
+  background: transparent;
+  color: blue;
+  cursor: pointer;
+  }
+/*button:linked{
   color: DodgerBlue;
   border:2px solid DodgerBlue;
   text-align: center;
@@ -54,7 +66,7 @@ button:hover{
 }
 button:active{
   border:2px solid DodgerBlue;
-}
+} */
 .primaryButton{
   background-color: #3c5680;
   border-color: aquamarine;
