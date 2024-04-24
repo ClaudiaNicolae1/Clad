@@ -1,19 +1,38 @@
 body {
   background-color: powderblue;
+  background: linear-gradient(to bottom right, powderblue, #8ea9d4);
 }
-h1{
+.games{
+  background-color: powderblue;
+  background: linear-gradient(to bottom right, #8ac1d4, #60c8eb);
+}
+h2{
   color:#132c54;
   font-family: courier,serif;
   font-size: 200%;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
 }
 p{
   color:#193f70;
   font-family: courier,serif;
   font-size: 100%;
 }
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+  }
+  .mySlides {
+    display: none;
+  }
+  
 button:linked{
   color: DodgerBlue;
   border:2px solid DodgerBlue;
+  text-align: center;
 }
 button:visited{
   color:blue;
@@ -27,6 +46,11 @@ button:active{
   border:2px solid DodgerBlue;
 }
 .primaryButton{
-  background-color: darkgreen;
+  background-color: #3c5680;
   border-color: aquamarine;
+  color: white;
 }
+.center {
+    text-align: center;
+  }
+  
