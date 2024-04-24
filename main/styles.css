@@ -39,9 +39,9 @@ h2{
   color:#132c54;
   font-family: courier,serif;
   font-size: 400%;
-  margin: 20px;
+  margin: 0 auto;
   padding: 20px;
-  width: center 50%;
+  width: 200px;
   border: 2px solid black;
 }
 h3{
