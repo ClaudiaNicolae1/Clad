@@ -29,7 +29,7 @@ p{
   font-family: courier,serif;
   font-size: 100%;
 }
-//de aici
+
 .slideshow-container {
     position: relative;
     max-width: 800px;
@@ -63,4 +63,6 @@ button:active{
 .center {
     text-align: center;
   }
+  ul{
+  text-align: right;}
   
