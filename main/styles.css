@@ -3,8 +3,12 @@ body {
   background: linear-gradient(to bottom right, powderblue, #8ea9d4);
 }
 .games{
-  background-color: powderblue;
-  background: linear-gradient(to bottom right, #8ac1d4, #60c8eb);
+  backgound-image: linear-
+  gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(backgroung.jpg);
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
 h2{
   color:#132c54;
