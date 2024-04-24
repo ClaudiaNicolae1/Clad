@@ -28,6 +28,13 @@ body {
   width: 120px;
   cursor: pointer;
   }
+  .content{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
 h2{
   color:#132c54;
   font-family: courier,serif;
