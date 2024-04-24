@@ -8,7 +8,7 @@
 </head>
 
 <body class="games center">
-  
+
 <header>
   <h3>Games:</h3>
 </header>
@@ -25,12 +25,12 @@
 <article>
     <img src="" alt="Pong Game">
     <a href="https://claudianicolae1.github.io/CladGames/"><button onclick="">Ping Pong Game</button></a>
-    
+
     <img src="pic_trulli.jpg" alt="Hang Man Game">
     <a href="https://claudianicolae1.github.io/HangMan/"><button onclick="">Hang Man</button></a>
-    
+
     <img src="pic.jpg" alt="Tic Tac Toe Game">
-    <a href="https://claudianicolae1.github.io/TicTacToe/"><button onclick="Tic Tac Toe"</button></a>
+    <a href="https://claudianicolae1.github.io/TicTacToe/"><button onclick="">Tic Tac Toe</button></a>
 </article>
 </section>
 
@@ -56,11 +56,11 @@
     var i;
     var slides = document.getElementsByClassName("mySlides");
     for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    slides[slideIndex-1].style.display = "block";  
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
   </script>
