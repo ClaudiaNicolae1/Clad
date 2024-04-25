@@ -1,6 +1,5 @@
 body {
   background-color: powderblue;
-  background: linear-gradient(to bottom right, powderblue, #8ea9d4);
    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(photo.jpg);
   background-size:cover;
   background-position: center;
@@ -8,8 +7,10 @@ body {
   height: 100vh;
 }
 .games{
-  background-color: powderblue;
+ /*background: linear-gradient(to bottom right, powderblue, powderblue);*/
+  background-image: linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)),url(background.jpg);
   background-size:cover;
+  background-attachment: fixed;
   background-position: center;
   width: 100%;
   height: 100vh;
@@ -17,7 +18,7 @@ body {
 .bordy{
   display: inline-block;
     outline:3px solid #324aa8;
-    
+
   }
 .navbar{
   width: 85%;
@@ -61,8 +62,6 @@ p{
     position: relative;
     max-width: 800px;
     margin: auto;
-    border: 2px solid #324aa8; /* Adjust the border width and color as needed */
-    padding: 10px; /* Adjust the padding around the images */
   }
   .mySlides {
     display: none;
@@ -91,7 +90,7 @@ button{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.8s;
+    transition: 0.5s;
     }
   button:hover span{
   	width: 100%;
@@ -99,7 +98,22 @@ button{
  button:hover{
   	border: none;
 	}
-
+/*button:linked{
+  color: DodgerBlue;
+  border:2px solid DodgerBlue;
+  text-align: center;
+}
+button:visited{
+  color:blue;
+  border:2px solid DodgerBlue;
+}
+button:hover{
+  color: blue;
+  border:2px solid DodgerBlue;
+}
+button:active{
+  border:2px solid DodgerBlue;
+} */
 .primaryButton{
   background-color: #3c5680;
   border-color: aquamarine;
