@@ -1,6 +1,6 @@
 body {
-  //background-color: powderblue;
-  //background: linear-gradient(to bottom right, powderblue, #8ea9d4);
+  background-color: powderblue;
+  background: linear-gradient(to bottom right, powderblue, #8ea9d4);
    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(photo.jpg);
   background-size:cover;
   background-position: center;
@@ -34,7 +34,7 @@ body {
     text-align: center;
   }
 h2{
-  color:#132c54;
+  color:white;
   font-family: courier,serif;
   font-size: 400%;
   margin: 0;
@@ -48,7 +48,7 @@ h3{
   font-size: 300%;
   }
 p{
-  color:#193f70;
+  color:white;
   font-family: courier,serif;
   font-size: 160%;
 }
