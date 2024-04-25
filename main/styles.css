@@ -2,7 +2,7 @@ body {
   //background-color: powderblue;
   //background: linear-gradient(to bottom right, powderblue, #8ea9d4);
    backgound-image: linear-
-  gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(picture.jpg);
+  gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(photo.jpg);
   background-size:cover;
   background-position: center;
   width: 100%;
