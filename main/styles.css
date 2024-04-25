@@ -18,7 +18,7 @@ body {
 .bordy{
   display: inline-block;
     outline:3px solid #324aa8;
-    font-size:350%;
+    
   }
 .navbar{
   width: 85%;
