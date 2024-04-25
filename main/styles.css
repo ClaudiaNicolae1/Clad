@@ -35,6 +35,10 @@ body {
     color:white;
     font-family: courier,serif;
   }
+  h2{
+    outline:3px solid white;
+    font-size:200%;
+    }
 /*h2{
   color:white;
   font-family: courier,serif;
