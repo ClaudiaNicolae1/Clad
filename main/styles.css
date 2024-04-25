@@ -62,6 +62,8 @@ p{
     position: relative;
     max-width: 800px;
     margin: auto;
+    border: 10px solid #324aa8; /* Adjust the border width and color as needed */
+    padding: 10px; /* Adjust the padding around the images */
   }
   .mySlides {
     display: none;
@@ -98,22 +100,6 @@ button{
  button:hover{
   	border: none;
 	}
-/*button:linked{
-  color: DodgerBlue;
-  border:2px solid DodgerBlue;
-  text-align: center;
-}
-button:visited{
-  color:blue;
-  border:2px solid DodgerBlue;
-}
-button:hover{
-  color: blue;
-  border:2px solid DodgerBlue;
-}
-button:active{
-  border:2px solid DodgerBlue;
-} */
 .primaryButton{
   background-color: #3c5680;
   border-color: aquamarine;
