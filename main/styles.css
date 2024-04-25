@@ -32,15 +32,17 @@ body {
     top:50%;
     transform: translateY(-50%);
     text-align: center;
+    color:white;
+    font-family: courier,serif;
   }
-h2{
+/*h2{
   color:white;
   font-family: courier,serif;
   font-size: 400%;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   padding: 20px;
   width: 200px;
-  text-align: center;
+  text-align: center;*/
 }
 h3{
   color:#324aa8;
