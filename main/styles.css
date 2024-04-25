@@ -1,8 +1,8 @@
 body {
-  background-color: powderblue;
-  background: linear-gradient(to bottom right, powderblue, #8ea9d4);
+  //background-color: powderblue;
+  //background: linear-gradient(to bottom right, powderblue, #8ea9d4);
    backgound-image: linear-
-  gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+  gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(picture.jpg);
   background-size:cover;
   background-position: center;
   width: 100%;
@@ -39,7 +39,7 @@ h2{
   color:#132c54;
   font-family: courier,serif;
   font-size: 400%;
-  margin: 4 auto;
+  margin: 0;
   padding: 20px;
   width: 200px;
   border: 2px solid black;
