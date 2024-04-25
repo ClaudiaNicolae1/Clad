@@ -9,7 +9,6 @@ body {
 }
 .games{
   background-color: powderblue;
-  /*background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));*/
   background-size:cover;
   background-position: center;
   width: 100%;
@@ -62,6 +61,8 @@ p{
     position: relative;
     max-width: 800px;
     margin: auto;
+    border: 2px solid #324aa8; /* Adjust the border width and color as needed */
+    padding: 10px; /* Adjust the padding around the images */
   }
   .mySlides {
     display: none;
@@ -90,7 +91,7 @@ button{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.8s;
     }
   button:hover span{
   	width: 100%;
@@ -98,22 +99,7 @@ button{
  button:hover{
   	border: none;
 	}
-/*button:linked{
-  color: DodgerBlue;
-  border:2px solid DodgerBlue;
-  text-align: center;
-}
-button:visited{
-  color:blue;
-  border:2px solid DodgerBlue;
-}
-button:hover{
-  color: blue;
-  border:2px solid DodgerBlue;
-}
-button:active{
-  border:2px solid DodgerBlue;
-} */
+
 .primaryButton{
   background-color: #3c5680;
   border-color: aquamarine;
